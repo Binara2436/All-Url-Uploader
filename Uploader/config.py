@@ -35,10 +35,10 @@ logging.basicConfig(
 class Config(object):
     WEBHOOK = os.environ.get("BOT_TOKEN", False)
     # Get a token from @BotFather
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6299210485:AAEb3tjYjE8DmwqX8ZCQ98kx8XcA3Q9Vals")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
     # The Telegram API things
-    API_ID = int(os.environ.get("API_ID", "20219667"))
-    API_HASH = os.environ.get("API_HASH", "82b82bcd10c857178cc49e22f5e8d67c")
+    API_ID = int(os.environ.get("API_ID", ""))
+    API_HASH = os.environ.get("API_HASH", "")
     # Get these values from my.telegram.org
     # Array to store users who are authorized to use the bot
 
